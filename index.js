@@ -25,7 +25,7 @@ app.use(userRoutes)
 async function start() {
   try {
     await mongoose.connect(
-        //copy your mongodb link
+        //copy and insert your mongodb link
         'mongodb+srv://user:password@cluster0.y3xuf.mongodb.net/users',
       {
         useNewUrlParser: true,
