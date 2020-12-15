@@ -1,0 +1,20 @@
+<nav class="blue darken-4">
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo">Simple authentication app</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+      {{#if isIndex}}
+      <li class="active"><a href="/">Authentication</a></li>
+      {{else}}
+      <li><a href="/">Authentication</a></li>
+      {{/if}}
+
+      {{#if isCreate}}
+      <li class="active"><a href="/create">Create user</a></li>
+      {{else}}
+      <li><a href="/create">Create user</a></li>
+      {{/if}}
+
+    </ul>
+  </div>
+</nav>

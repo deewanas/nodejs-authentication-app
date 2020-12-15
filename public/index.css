@@ -1,0 +1,21 @@
+.user {
+    margin-bottom: 1rem;
+  }
+  
+  .user span.completed {
+    text-decoration: line-through;
+  }
+  
+  .user label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #f3f3f3;
+    padding: 1rem;
+  }
+  
+  .user i {
+    z-index: 2;
+  }
